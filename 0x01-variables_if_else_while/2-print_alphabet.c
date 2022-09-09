@@ -7,14 +7,17 @@
  *
  * Return: Returns nothing
  *
- */int main(void)
+ */
+
+int main(void)
 {
-	char c;
+	char alphabet = 'a'
 
-	for (c = 'a'; c <= 'z'; ++c)
-	{
-		putchar("%c ", c);
-	}
-	return (0);
+	while alphabet <= 'z'
+		{
+			putchar(;alphabet)
+			alphabet++;
+		}
+	putchar(\n);
+	return (0)
 }
-
