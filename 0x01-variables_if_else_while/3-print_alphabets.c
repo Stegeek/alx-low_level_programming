@@ -13,10 +13,13 @@ int main(void)
 	char alphabet = 'a';
 	char capital = 'A';
 
-	while (alphabet <= 'z'; capital <= 'Z')
+	while (alphabet <= 'z')
 	{
 		putchar(alphabet);
 		alphabet++;
+	}
+	while (capital <= 'Z')
+	{
 		putchar(capital);
 		capital++;
 	}
