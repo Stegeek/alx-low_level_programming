@@ -13,10 +13,14 @@ int main(void)
 {
 	char alphabet = 'a';
 
-	for (alphabet <= 'z'; alphabet != 'e'; alphabet != 'q'; alphabet++)
+	while (alphabet <= 'z')
 	{
-		putchar(alphabet);
+		if (alphabet != 'e' && alphabet != 'q')
+		{
+			putchar(alphabet);
+			alphabet++;
+		}
 	}
-	putchar('\n');
+	putchar ('\n');
 	return (0);
 }
