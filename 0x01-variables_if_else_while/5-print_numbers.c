@@ -9,7 +9,7 @@
  *
  */
 
-void main()
+int main(void)
 {
 	int i;
 
