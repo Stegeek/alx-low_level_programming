@@ -19,5 +19,5 @@ int main(void)
 	}
 
 	printf("\n");
-	return (i)
+	return (i);
 }
